@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #EAF2F8;
-  /* Бледно голубой цвет фона */
 }
 
 .profile-container {
@@ -15,7 +14,6 @@ body {
   height: 200px;
   border-radius: 50%;
   border: 2px solid white;
-  /* Белая рамка */
   margin-right: 20px;
 }
 
@@ -52,7 +50,6 @@ body {
 
 .follow-button {
   background-color: #FFFFFF;
-  /* Белый цвет кнопки */
   margin-left: 320%;
   color: black;
   border: 1.5px solid black;
@@ -92,7 +89,6 @@ body {
 
 .post-button {
   background-color: #4453b3;
-  /* Белый цвет кнопки */
   margin-left: 85%;
   color: rgb(253, 253, 253);
   border: 1.5px solid black;
@@ -147,7 +143,6 @@ table {
 
 .buttons button {
   margin-right: 10px;
-  /* Опциональный отступ между кнопками */
   margin-top: -20px;
 }
 
@@ -166,7 +161,6 @@ table {
   width: 90px;
   height: 25px;
 }
-
 
 .grey {
   display: flex;
@@ -194,7 +188,6 @@ table {
   line-height: 0.8;
   border-collapse: collapse;
 }
-
 
 .table {
   border-spacing: 62px 1px;
