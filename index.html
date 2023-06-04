@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>UserProfile</title>
+</head>
+
+<body>
+
+  <div class="profile-info">
+    <div class="profile-container">
+      <img class="profile-picture" src="avatar7.png" alt="User Photo">
+    </div>
+    <table class="table">
+      <tr>
+        <td class="profile-name">Ivan Ivanov</td>
+        <td>650</td>
+        <td>120</td>
+      </tr>
+      <tr>
+        <td style="color:#797777">Co-Founder at Google</td>
+        <td style="color:#797777">Followers</td>
+        <td style="color:#797777">Following</td>
+      </tr>
+    </table>
+    <div>
+      <button class="follow-button" onclick="followUser()">Follow</button>
+    </div>
+  </div>
+
+  <div class="grey">
+    <div class="description">
+      <p>Team International</p>
+      <p>Works as <span style="color:#FF0000"> QA Automation Engineer</span></p>
+      <p>2 June</p>
+      <div class="buttons">
+        <button class="activ-button">Profile</button>
+        <button class="nonactiv-button">Bio</button>
+        <button class="nonactiv-button">Edit</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="comment-section">
+    <div class="smallgrey">
+      <textarea class="comment-input" placeholder="What's on your mind"></textarea>
+      <button class="post-button" onclick="postComment()">Post</button>
+    </div>
+  </div>
+
+  <div class="comments">
+    <div class="post">
+      <div class="post-container">
+        <img class="post-picture" src="avatar7.png" alt="User Photo">
+      </div>
+      <table class="table-post">
+        <tr>
+          <td class="comment-author">Ivan Ivanov</td>
+        </tr>
+        <tr>
+          <td class="follow-stats">Posted 3 hours ago</td>
+        </tr>
+        <tr>
+          <td height=50px width=auto class="comment-content">
+            I'm hopeful that the world can come together to end this pandemic and prevent the text one. Thanks Dax
+            Shepard, Monica Padman, and David Farrier for the grait conversation.
+          </td>
+        </tr>
+        <tr>
+          <td height=20px class="link">Liked(8) Comment(12)</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="replyes">
+    <div class="post">
+      <div class="post-container">
+        <img class="post-picture" src="avatar2.png" alt="User Photo">
+      </div>
+
+      <table class="table-post">
+        <tr>
+          <td class="comment-author" style="color: rgb(108, 108, 240);">Petr Petrov</td>
+        </tr>
+        <tr>
+          <td width=auto class="comment-content">
+            Congrats Andy and Team Amazon! What if Amazon created an entirely new consumer momevt/day around celebrating
+            and promoting sustainable merchans, ultimately creating a flywhell movement around conscious consumption
+            called Pledge Day?
+          </td>
+        </tr>
+        <tr>
+          <td height=20px class="follow-stats">January 4 at 1:11am - Like(2) - Reply</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="replyes">
+    <div class="post">
+      <div class="post-container">
+        <img class="post-picture" src="avatar2.png" alt="User Photo">
+      </div>
+      <table class="table-post">
+        <tr>
+          <td class="comment-author" style="color: rgb(108, 108, 240);">John Smith</td>
+        </tr>
+        <tr>
+          <td width=auto class="comment-content">
+            Important milestone for The Climate Piedge - 300+ companies have now joined
+          </td>
+        </tr>
+        <tr>
+          <td height=20px class="follow-stats">January 3 at 6:42pm - Liked - Reply</td>
+        </tr>
+        <tr>
+          <td class="centered-button">
+            <div>
+              <button class="load-button" onclick="loadButton()">Load More...</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
